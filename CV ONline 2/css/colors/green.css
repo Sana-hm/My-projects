@@ -1,15 +1,19 @@
 .aside .logo a::before {
-    border-top: 4px solid #2196f3;
-    border-left: 4px solid #2196f3;
+    border-top: 4px solid #72b626;
+    border-left: 4px solid #72b626;
   }
   .aside .logo a::after {
-    border-right: 4px solid #2196f3;
-    border-bottom: 4px solid #2196f3;
+    border-right: 4px solid #72b626;
+    border-bottom: 4px solid #72b626;
   }
+  
+  button.active .icon .fa .contact-info-item .contact,
+  body .dark .aside .nav li a:hover,
+  body .dark .aside .nav li a.active,
   .about .about-content .about-text h3 span,
   .aside .nav li a:hover,
   .aside .nav li a.active {
-    color: #2196f3;
+    color: #72b626;
   }
   
   .about .about-content .timeline .circle-dot,
@@ -20,14 +24,14 @@
   .aside .nav-toggler span::before,
   .aside .nav-toggler span::after,
   .home .intro .social-links a {
-    background-color:#2196f3;
+    background-color:#72b626;
   }
   
   .contact .contact-info-item .icon .fa {
-    color: #2196f3;
+    color: #72b626;
   }
   
   .btn {
-    background-color:#2196f3;
+    background-color:#72b626;
   }
   

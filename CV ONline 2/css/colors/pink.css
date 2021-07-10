@@ -2,11 +2,15 @@
   border-top: 4px solid rgb(248, 132, 171);
   border-left: 4px solid rgb(248, 132, 171);
 }
+
 .aside .logo a::after {
   border-right: 4px solid rgb(248, 132, 171);
   border-bottom: 4px solid rgb(248, 132, 171);
 }
+
+button.active .icon .fa .contact-info-item .contact,
 .about .about-content .about-text h3 span,
+body .dark .aside .nav li a:hover,
 body .dark .aside .nav li a.active,
 .aside .nav li a:hover,
 .aside .nav li a.active {

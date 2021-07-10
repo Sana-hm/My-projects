@@ -1,5 +1,5 @@
 const links = document.querySelectorAll(".alternate-style");
-    totallinks=links.length;
+    totalLinks=links.length;
 
 
 function setActiveStyle(color) {
@@ -11,7 +11,7 @@ function setActiveStyle(color) {
             links[i].removeAttribute("disabled");
 
         }else{
-            links[i].setAttribute("disabled" , "true");
+            links[i].setAttribute("disabled","true");
         }
     }
   
