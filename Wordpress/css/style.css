@@ -1,0 +1,123 @@
+@font-face{
+    font-family: 'welearn'; /*esmi ke ma baeash mizarim va bayad bad farakhuni konim*/
+    src: url('fonts/Chocolate Dipped Strawberry.ttf') format('ttf');
+
+}
+
+body{
+    color: #444;
+    background: #f3f3f3;
+    font: 12px;
+    direction: ltr;
+}
+
+li{
+    list-style: none;
+}
+
+:focus{
+    outline: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    color: #2ecc71;
+}
+
+.mastheade{
+    width: 100%;
+    height: 74px;
+    background: #2c3e50;
+    position: relative;
+}
+
+.main_masthead{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.main_masthead > ul > li{
+    display: inline-block;
+    position: relative;   
+}
+
+.main_masthead > ul > li > a{
+    color: #fdfdfd;
+    display: block;
+    padding: 19px 15px ;
+    font: 18px/2 'welearn'; /* add dovomi baraye Ligne height hast yani miare paein ye zare*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.main_masthead > ul > li > a:hover{
+    background: #2ecc71;
+}
+
+/* SearchBar */
+.search{
+    float: right;
+    margin: 15px 0 0 0; /* Bala Rast Paein Chap*/
+}
+
+.search input{
+    background: #23313f url(../images/search.png) 3% no-repeat;
+    padding: 17px 10px 8px 20px;
+    border: 2px solid #23313f;
+    color: #fdfdfd;
+    direction: ltr;
+    text-align: right;
+    font-family: 19px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.search input:focus{
+    border: 2px solid #27ae60;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out; 
+}
+
+#main{
+    width: 1100px;
+    margin: 20px auto;
+}
+
+#header-nav{
+    margin: 0 auto;
+}
+
+#header-nav ul > li{
+    width: 100px;
+    height: 100px;
+    background: gray;
+    float: right;
+    padding-top: 11px;
+}
+
+#header-nav > ul >li > a{
+     display: block;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     color: #fdfdfdfd;
+     font:  15px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header-nav .fa{
+    margin: 10px 10px;
+}
+
+.logo{
+    float: left;
+}
