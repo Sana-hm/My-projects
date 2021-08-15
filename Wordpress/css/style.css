@@ -123,24 +123,26 @@ a{
     float: left;
 }
 
-.welearn-container{
-    width: 110px;
+.suggest-container{
+    width: 1100px;
     margin: 20px auto;
 }
 
-.welearn-post{
+.suggest-post{
     width: 760px;
-    float: left;
+    float: right;
     margin-bottom: 50px;
 }
 
 .ourpost{
     width: 440px;
     height: 250px;
+    overflow: hidden;
     background: #fff;
     border: 1px solid #e2e2e2;
     border-bottom: 2px solid #e6e6e6;
     float: right;
+    margin-bottom: 30px;
 }
 .ourpost h3{
     background: #222;
@@ -181,4 +183,67 @@ a{
     float: right;
     margin-top: 10px;
     font-size: 11px;
+}
+
+.ads-in img{
+    width: 300px;
+    height: 255px;
+    float: left;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.post{
+    width: 760px;
+    
+    margin-bottom: 30px;
+    float: right;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.post-title{
+    margin: 5px 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px;
+}
+
+.post-img img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.post-content p{
+    font: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px 15px;
+}
+
+.post-content{
+    padding: 10px;
+}
+
+.post footer{
+    border-top: 1px solid #e2e2e2;
+    margin: 15px auto;
+}
+
+.post footer div{
+    width: 50px;
+    padding: 5px 3px;
+    border-left: 1px solid #e2e2e2;
+    float: right;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.post footer a{
+    color: #e6e6e6;
+}
+.post footer a:hover{
+    color: #2ecc71;
 }

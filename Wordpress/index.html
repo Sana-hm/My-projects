@@ -8,14 +8,25 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/metro.css">
+    <link rel="stylesheet" href="css/tooltip.css">
 
+    <script src="js/jquery.easy-ticker.js"></script>
     <script src="js/jquery-1.8.2.min.js"></script>
     <script src="js/scrollbar.js"></script>
+    <script src="js/tooltip.js"></script>
 
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $("#metro-box").mCustomScrollbar({
                 horizontalScroll:true,
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function(){
+            $('.demo').easyTicker({
+                    direction: 'up'
             });
         });
     </script>
@@ -40,7 +51,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Setting</a></li><link rel="import" href="component.html">
+                <li><a href="#">Setting</a></li>
             </ul>
         </div>
     </div>
@@ -157,19 +168,219 @@
             </div>
         </section>
 
-        <div class="welearn-container">
-            <div class="welearn-post">
+        <div class="suggest-container">
+            <div class="suggest-post">
                 <div class="ourpost">
                     <h3>Suggested content</h3>
-                    <div class=""></div>
+                    <div class="demo">
                     <ul>
                         <li><img src="images/2.jpg" alt="" title=""><a href="#">Line: Free calls & Message v5.1.0<span> Visit : 404</span></a></li>
-                        <li><img src="images/2.jpg" alt="" title=""><a href="#">Line: Free calls & Message v5.1.0<span> Visit : 404</span></a></li>
+                        <li><img src="images/1.jpg" alt="" title=""><a href="#">Line: Free calls & Message v5.1.0<span> Visit : 404</span></a></li>
+                        <li><img src="images/4.jpg" alt="" title=""><a href="#">Line: Free calls & Message v5.1.0<span> Visit : 404</span></a></li>
+                        <li><img src="images/3.jpg" alt="" title=""><a href="#">Line: Free calls & Message v5.1.0<span> Visit : 404</span></a></li>
                         <li><img src="images/2.jpg" alt="" title=""><a href="#">Line: Free calls & Message v5.1.0<span> Visit : 404</span></a></li>
                         <li><img src="images/2.jpg" alt="" title=""><a href="#">Line: Free calls & Message v5.1.0<span> Visit : 404</span></a></li>
                     </ul>
                 </div>
             </div>
+
+            <div class="ads-in">
+                <img src="images/ads1.jpg" alt="">
+            </div>
+
+            <div class="clear"></div>
+
+            <article class="post">
+              <header>
+                    <div class="post-title">
+                        <h2>Download Mozilla Firefox browser</h2>
+                    </div>
+              </header>
+
+                    <div class="post-img">
+                        <img src="images/firefox.jpg" alt="">
+                    </div>
+
+                    <div class="post-content">
+                        <p>In this version, Mozilla Firefox has introduced a new design of add-ons and their management and settings, and has acted in such a way that users can easily install their favorite plugins, the number of which now exceeds thousands, and with More power to browse the web. Indexing DBs to connect faster to information on servers is also one of the most interesting technologies seen in this version. Numerous crashes that occurred in previous versions for various reasons can be seen in this version, so that Mozilla Firefox may not crash at all compared to before, or at least their number is very low. The new version has strengthened three main features compared to the previous one; Faster, easier to use, and even faster; It works faster because it is much more compatible with Java and related code.</p>
+                    </div>
+
+                    <footer>
+                        <div>
+                            <a href="#" onmouseover="tooltip.pop(this,'#sub1',{position:0,effect:'slide'})"><span class="fas fa-user fa-2x"></span></a>
+                            <div style="display: none">
+                                <div class="sub1">gyftf</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a href="#" onmouseover="tooltip.pop(this,'#sub2',{position:0,effect:'slide'})"><span class="fas fa-comments fa-2x"></span></a>
+                        
+                            <div style="display: none">
+                                <div class="sub2">Comments</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a href="#"><span class="fas fa-tags fa-2x"></span></a>
+                        </div>
+
+                        <div>
+                            <a href="#"> <span class="fas fa-calendar-minus fa-2x"></span></a>
+                        </div>
+
+                        <div>
+                            <a href="#"><span class="fas fa-list fa-2x"></span></a>
+                        </div>
+
+                    </footer>
+            </article>
+
+            <article class="post">
+                <header>
+                      <div class="post-title">
+                          <h2>Download Mozilla Firefox browser</h2>
+                      </div>
+                </header>
+  
+                      <div class="post-img">
+                          <img src="images/firefox.jpg" alt="">
+                      </div>
+  
+                      <div class="post-content">
+                          <p>In this version, Mozilla Firefox has introduced a new design of add-ons and their management and settings, and has acted in such a way that users can easily install their favorite plugins, the number of which now exceeds thousands, and with More power to browse the web. Indexing DBs to connect faster to information on servers is also one of the most interesting technologies seen in this version. Numerous crashes that occurred in previous versions for various reasons can be seen in this version, so that Mozilla Firefox may not crash at all compared to before, or at least their number is very low. The new version has strengthened three main features compared to the previous one; Faster, easier to use, and even faster; It works faster because it is much more compatible with Java and related code.</p>
+                      </div>
+  
+                      <footer>
+                          <div>
+                              <a href="#" onmouseover="tooltip.pop(this,'#sub1',{position:0,effect:'slide'})"><span class="fas fa-user fa-2x"></span></a>
+                              <div style="display: none">
+                                  <div class="sub1">gyftf</div>
+                              </div>
+                          </div>
+  
+                          <div>
+                              <a href="#" onmouseover="tooltip.pop(this,'#sub2',{position:0,effect:'slide'})"><span class="fas fa-comments fa-2x"></span></a>
+                          
+                              <div style="display: none">
+                                  <div class="sub2">Comments</div>
+                              </div>
+                          </div>
+  
+                          <div>
+                              <a href="#"><span class="fas fa-tags fa-2x"></span></a>
+                          </div>
+  
+                          <div>
+                              <a href="#"> <span class="fas fa-calendar-minus fa-2x"></span></a>
+                          </div>
+  
+                          <div>
+                              <a href="#"><span class="fas fa-list fa-2x"></span></a>
+                          </div>
+  
+                      </footer>
+              </article>
+
+              <article class="post">
+                <header>
+                      <div class="post-title">
+                          <h2>Download Mozilla Firefox browser</h2>
+                      </div>
+                </header>
+  
+                      <div class="post-img">
+                          <img src="images/firefox.jpg" alt="">
+                      </div>
+  
+                      <div class="post-content">
+                          <p>In this version, Mozilla Firefox has introduced a new design of add-ons and their management and settings, and has acted in such a way that users can easily install their favorite plugins, the number of which now exceeds thousands, and with More power to browse the web. Indexing DBs to connect faster to information on servers is also one of the most interesting technologies seen in this version. Numerous crashes that occurred in previous versions for various reasons can be seen in this version, so that Mozilla Firefox may not crash at all compared to before, or at least their number is very low. The new version has strengthened three main features compared to the previous one; Faster, easier to use, and even faster; It works faster because it is much more compatible with Java and related code.</p>
+                      </div>
+  
+                      <footer>
+                          <div>
+                              <a href="#" onmouseover="tooltip.pop(this,'#sub1',{position:0,effect:'slide'})"><span class="fas fa-user fa-2x"></span></a>
+                              <div style="display: none">
+                                  <div class="sub1">gyftf</div>
+                              </div>
+                          </div>
+  
+                          <div>
+                              <a href="#" onmouseover="tooltip.pop(this,'#sub2',{position:0,effect:'slide'})"><span class="fas fa-comments fa-2x"></span></a>
+                          
+                              <div style="display: none">
+                                  <div class="sub2">Comments</div>
+                              </div>
+                          </div>
+  
+                          <div>
+                              <a href="#"><span class="fas fa-tags fa-2x"></span></a>
+                          </div>
+  
+                          <div>
+                              <a href="#"> <span class="fas fa-calendar-minus fa-2x"></span></a>
+                          </div>
+  
+                          <div>
+                              <a href="#"><span class="fas fa-list fa-2x"></span></a>
+                          </div>
+  
+                      </footer>
+              </article>
+
+              <article class="post">
+                <header>
+                      <div class="post-title">
+                          <h2>Download Mozilla Firefox browser</h2>
+                      </div>
+                </header>
+  
+                      <div class="post-img">
+                          <img src="images/firefox.jpg" alt="">
+                      </div>
+  
+                      <div class="post-content">
+                          <p>In this version, Mozilla Firefox has introduced a new design of add-ons and their management and settings, and has acted in such a way that users can easily install their favorite plugins, the number of which now exceeds thousands, and with More power to browse the web. Indexing DBs to connect faster to information on servers is also one of the most interesting technologies seen in this version. Numerous crashes that occurred in previous versions for various reasons can be seen in this version, so that Mozilla Firefox may not crash at all compared to before, or at least their number is very low. The new version has strengthened three main features compared to the previous one; Faster, easier to use, and even faster; It works faster because it is much more compatible with Java and related code.</p>
+                      </div>
+  
+                      <footer>
+                          <div>
+                              <a href="#" title="user"><span class="fas fa-user fa-2x"></span></a>
+                          </div>
+  
+                          <div>
+                              <a href="#"><span class="fas fa-comments fa-2x"></span></a>
+                          
+                          </div>
+  
+                          <div>
+                              <a href="#"><span class="fas fa-tags fa-2x"></span></a>
+                          </div>
+  
+                          <div>
+                              <a href="#"> <span class="fas fa-calendar-minus fa-2x"></span></a>
+                          </div>
+  
+                          <div>
+                              <a href="#"><span class="fas fa-list fa-2x"></span></a>
+                          </div>
+  
+                      </footer>
+              </article>
+
+            <article class="post">
+              
+            </article>
+
+            <article class="post">
+              
+            </article>
+
+            <article class="post">
+              
+            </article>
+
+        </div>
         </div>
     </div>
      <!--fontawesome js-->
