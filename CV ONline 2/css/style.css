@@ -322,10 +322,10 @@ select {
 }
 
 .about .about-content .skills {
-  -ms-flex: 0 0 40%;
+  /* -ms-flex: 0 0 40%;
   flex: 0 0 40%;
   max-width: 40%;
-  margin-top: 40px;
+  margin-top: 40px; */
 }
 .about .about-content .skills .skill-item {
   -ms-flex: 0 0 40%;
